@@ -1,0 +1,39 @@
+
+.row_poster{
+
+ /* overflow-y: hidden; */
+ /* overflow-x: hidden; */
+ /* padding: 20px; */
+}
+.poster_img{
+    object-fit: contain;
+    width:100%;
+    max-height: 150px;
+    transition: transform 450ms;
+    margin:0.5%;
+}
+.poster_img:hover{
+    transform:scale(1.08);
+}
+.banner_img{
+    object-fit: cover;
+    width:100%;
+    max-height: 500px;
+    
+}
+>.banner_overlay{
+    background-color: aqua;
+    height: 500px;
+}
+.movie_info{
+    margin-top: -20%;
+    padding: 3%;
+    background:rgba(0,0,0,0.6);
+}
+.skeleton_card{
+    display: flex;
+    overflow-x: hidden;
+}
+.sc{
+    padding: 0.5%;
+}
